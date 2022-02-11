@@ -1,0 +1,34 @@
+#sideNav{
+
+padding-left: 0;
+padding-right: 0;
+text-align: center;
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+width: 20%;
+height: 100vh;
+background-color: darkred;
+text-align: center;
+
+}
+.d-lg-block {
+    display: block !important;
+}
+#sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+.navbar-expand-lg .navbar-nav{
+
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+}
+
+.bg-primary {
+    background-color: darkred;
+}
